@@ -1,0 +1,45 @@
+/* *****
+Content
+***** */
+
+
+.news_container {
+    height: auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15%;
+
+ }
+
+.visual {
+    height: 100px;
+    width: 100%;
+
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #ffb3f4;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+
+a { 
+  text-decoration: none;
+  color:#21306f; 
+  text-align: center;
+  }  
+
+h3 {
+  font-size: 40px;
+  margin: 20px;
+  text-align: center;
+  }
+
+div.card:hover { 
+  background-color: #21306f;
+  color: #ffb3f4;
+}

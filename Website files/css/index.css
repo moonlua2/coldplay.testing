@@ -1,0 +1,93 @@
+
+/* *****
+Content
+***** */
+
+.click_for_more{
+    font-weight:bold;
+    color: #21306f;
+}
+
+.click_for_more:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.container { 
+    display: flex;
+    flex-direction:column;
+    margin: 50px;
+    padding: 50px;
+}
+
+.container section{
+    width:60%;
+    box-sizing: border-box;
+    margin-bottom:30px;
+    padding:7%;          
+    display: flex;
+    flex-direction: column;
+}
+
+.container section p {
+    height:400px;
+    overflow:hidden;
+}
+
+.container section:nth-child(odd){
+    align-items: flex-start;
+}
+
+.container section:nth-child(even){
+    margin-left:auto;
+}
+
+.container section a{
+    font-size:20px;
+}
+
+.container section a:hover{
+    color:white;
+}
+
+.container > * {
+    background-color: #ffb3f4;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+h1, a { 
+    font-size: 40px;
+    color: #21306f;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+p{
+    font-size: 18px;
+    color: #21306f;
+}
+
+aside { 
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-style: italic;
+    background-color: #ffb3f4;
+    color: #21306f;
+}
+
+.wiki { 
+    font-size: 20px;
+}
+
+.wiki:hover {
+    background-color: white;
+}
+
+

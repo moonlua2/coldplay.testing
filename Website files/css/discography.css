@@ -1,0 +1,31 @@
+
+/* *****
+Content
+***** */
+
+.container { 
+  display: grid;
+  justify-content: space-around;
+  padding: 100px;
+  grid-template-columns: 15rem 15rem;
+
+}
+
+h3 {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #21306f;
+    word-break: break-all;
+    background-color: #ffb3f4;
+    text-align: center;
+    word-break:keep-all;
+    transition: all 2s;
+}
+  
+.grid-item:hover { 
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    transition: all 6s;
+}
